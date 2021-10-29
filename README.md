@@ -13,18 +13,20 @@ Status: 200
 Body: Array de personajes, cada personaje con el formato del siguiente ejemplo.
 
 
-{
+{id: 1,
 
-id: 1,
 name: "Nombre der personaje",
+
 staus: "Alive",
+
 species: "Human",
+
 episode: [
-	{ 
+	{
 		name: "nombre episodio 1",
 		episode: "S0E1"
 	},
-	{ 
+	{
 		name: "nombre episodio 2",
 		episode: "S0E2"
 	}]
@@ -35,10 +37,11 @@ Devuelve un objeto con los datos del personaje con id
 
 Status: 200 Body: objecto con el personaje con el formato del siguiente ejemplo.
 
-{
-id: 1,
+{id: 1,
+
 name: "Nombre der personaje",
-staus: "Alive",
+
+status: "Alive",
 
 episode: [
 	{ 
@@ -59,10 +62,11 @@ Si lo realiza correctamente (el personaje existe)
 
 Status: 200 Body: objecto con el personaje con el formato del siguiente ejemplo.
 
-{
-id: 1,
+{id: 1,
+
 name: "Nombre der personaje",
-staus: "Alive",
+
+status: "Alive",
 
 episode: [
 	{ 
